@@ -1,0 +1,305 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:WPFProjectCars.Styles">
+
+    <Style x:Key="Homebtn" TargetType="Button">
+        <Style.Setters>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border BorderBrush="Transparent" BorderThickness="0 0 0 0" x:Name="Border" Background="DimGray">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="C:\Users\Arman\Documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars\Image\HomeB.png" Width="10" VerticalAlignment="Center" Margin="5"></Image>
+                                <ContentPresenter Margin="5" VerticalAlignment="Center"></ContentPresenter>
+                            </StackPanel>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="Border" Value="Orange"></Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Foreground" Value="LightGray"></Setter>
+        </Style.Setters>
+    </Style>
+
+    <Style x:Key="Worksbtn" TargetType="Button">
+        <Style.Setters>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border BorderBrush="Transparent" BorderThickness="0 0 0 0" x:Name="Border" Background="DimGray">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="C:\Users\Arman\Documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars\Image\WorksB.png" Width="10" VerticalAlignment="Center" Margin="5"></Image>
+                                <ContentPresenter Margin="5" VerticalAlignment="Center"></ContentPresenter>
+                            </StackPanel>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="Border" Value="Orange"></Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Foreground" Value="LightGray"></Setter>
+        </Style.Setters>
+    </Style>
+
+    <Style x:Key="FinishedWorksbtn" TargetType="Button">
+        <Style.Setters>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border BorderBrush="Transparent" BorderThickness="0 0 0 0" x:Name="Border" Background="DimGray">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="C:\Users\Arman\Documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars\Image\FinishedWorksB.png" Width="10" VerticalAlignment="Center" Margin="5"></Image>
+                                <ContentPresenter Margin="5" VerticalAlignment="Center"></ContentPresenter>
+                            </StackPanel>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="Border" Value="Orange"></Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Foreground" Value="LightGray"></Setter>
+        </Style.Setters>
+    </Style>
+
+    <Style x:Key="Agregationbtn" TargetType="Button">
+        <Style.Setters>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border BorderBrush="Transparent" BorderThickness="0 0 0 0" x:Name="Border" Background="DimGray">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="C:\Users\Arman\Documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars\Image\AgregationsB.png" Width="10" VerticalAlignment="Center" Margin="5"></Image>
+                                <ContentPresenter Margin="5" VerticalAlignment="Center"></ContentPresenter>
+                            </StackPanel>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="Border" Value="Orange"></Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Foreground" Value="LightGray"></Setter>
+        </Style.Setters>
+    </Style>
+
+    <Style x:Key="EngineWorkHoursbtn" TargetType="Button">
+        <Style.Setters>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border BorderBrush="Transparent" BorderThickness="0 0 0 0" x:Name="Border" Background="DimGray">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="C:\Users\Arman\Documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars\Image\EngineWorkHoursB.png" Width="10" VerticalAlignment="Center" Margin="5"></Image>
+                                <ContentPresenter Margin="5" VerticalAlignment="Center"></ContentPresenter>
+                            </StackPanel>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="Border" Value="Orange"></Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Foreground" Value="LightGray"></Setter>
+        </Style.Setters>
+    </Style>
+
+    <Style x:Key="SparePartsbtn" TargetType="Button">
+        <Style.Setters>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border BorderBrush="Transparent" BorderThickness="0 0 0 0" x:Name="Border" Background="DimGray">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="C:\Users\Arman\Documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars\Image\SparePartsB.png" Width="10" VerticalAlignment="Center" Margin="5"></Image>
+                                <ContentPresenter Margin="5" VerticalAlignment="Center"></ContentPresenter>
+                            </StackPanel>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="Border" Value="Orange"></Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Foreground" Value="LightGray"></Setter>
+        </Style.Setters>
+    </Style>
+
+    <Style x:Key="Planingbtn" TargetType="Button">
+        <Style.Setters>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border BorderBrush="Transparent" BorderThickness="0 0 0 0" x:Name="Border" Background="DimGray">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="C:\Users\Arman\Documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars\Image\PlaningB.png" Width="10" VerticalAlignment="Center" Margin="5"></Image>
+                                <ContentPresenter Margin="5" VerticalAlignment="Center"></ContentPresenter>
+                            </StackPanel>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="Border" Value="Orange"></Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Foreground" Value="LightGray"></Setter>
+        </Style.Setters>
+    </Style>
+
+
+    <Style x:Key="Projectbtn" TargetType="Button">
+        <Style.Setters>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border BorderBrush="Transparent" BorderThickness="0 0 0 0" x:Name="Border" Background="DimGray">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="C:\Users\Arman\Documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars\Image\ProjectB.png" Width="10" VerticalAlignment="Center" Margin="5"></Image>
+                                <ContentPresenter Margin="5" VerticalAlignment="Center"></ContentPresenter>
+                            </StackPanel>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="Border" Value="Orange"></Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Foreground" Value="LightGray"></Setter>
+        </Style.Setters>
+    </Style>
+
+    <Style x:Key="CarsListbtn" TargetType="Button">
+        <Style.Setters>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border BorderBrush="Transparent" BorderThickness="0 0 0 0" x:Name="Border" Background="DimGray">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="C:\Users\Arman\Documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars\Image\CarsListB.png" Width="10" VerticalAlignment="Center" Margin="5"></Image>
+                                <ContentPresenter Margin="5" VerticalAlignment="Center"></ContentPresenter>
+                            </StackPanel>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="Border" Value="Orange"></Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Foreground" Value="LightGray"></Setter>
+        </Style.Setters>
+    </Style>
+
+    <Style x:Key="Referencesbtn" TargetType="Button">
+        <Style.Setters>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border BorderBrush="Transparent" BorderThickness="0 0 0 0" x:Name="Border" Background="DimGray">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="C:\Users\Arman\Documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars\Image\ReferencesB.png" Width="10" VerticalAlignment="Center" Margin="5"></Image>
+                                <ContentPresenter Margin="5" VerticalAlignment="Center"></ContentPresenter>
+                            </StackPanel>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="Border" Value="Orange"></Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Foreground" Value="LightGray"></Setter>
+        </Style.Setters>
+    </Style>
+
+    <Style x:Key="Accessbtn" TargetType="Button">
+        <Style.Setters>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border BorderBrush="Transparent" BorderThickness="0 0 0 0" x:Name="Border" Background="DimGray">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="C:\Users\Arman\Documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars\Image\AccessB.png" Width="10" VerticalAlignment="Center" Margin="5"></Image>
+                                <ContentPresenter Margin="5" VerticalAlignment="Center"></ContentPresenter>
+                            </StackPanel>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="Border" Value="Orange"></Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Foreground" Value="LightGray"></Setter>
+        </Style.Setters>
+    </Style>
+
+    <Style x:Key="CheckListbtn" TargetType="Button">
+        <Style.Setters>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border BorderBrush="Transparent" BorderThickness="0 0 0 0" x:Name="Border" Background="DimGray">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="C:\Users\Arman\Documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars\Image\CheckListB.png" Width="10" VerticalAlignment="Center" Margin="5"></Image>
+                                <ContentPresenter Margin="5" VerticalAlignment="Center"></ContentPresenter>
+                            </StackPanel>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="Border" Value="Orange"></Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Foreground" Value="LightGray"></Setter>
+        </Style.Setters>
+    </Style>
+
+    <Style x:Key="Reportsbtn" TargetType="Button">
+        <Style.Setters>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border BorderBrush="Transparent" BorderThickness="0 0 0 0" x:Name="Border" Background="DimGray">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="C:\Users\Arman\Documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars\Image\ReportsB.png" Width="10" VerticalAlignment="Center" Margin="5"></Image>
+                                <ContentPresenter Margin="5" VerticalAlignment="Center"></ContentPresenter>
+                            </StackPanel>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="Border" Value="Orange"></Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Foreground" Value="LightGray"></Setter>
+        </Style.Setters>
+    </Style>
+
+</ResourceDictionary>

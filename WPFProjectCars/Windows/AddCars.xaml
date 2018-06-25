@@ -1,0 +1,212 @@
+﻿<Window x:Class="WPFProjectCars.Windows.AddCars"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFProjectCars.Windows"
+        mc:Ignorable="d"
+        Title="Добавить машину" Height="500" Width="500">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Детали">
+                <Grid Background="Linen">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Content="Детали"></Label>
+
+                    <Label Content="Гаражный номер машины" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" FontSize="7"></Label>
+                    <Label Content="Производитель" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" FontSize="7"></Label>
+                    <Label Content="Модель машины" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right" FontSize="7"></Label>
+                    <Label Content="Год выпуска" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right" FontSize="7"></Label>
+                    <Label Content="Префикс" Grid.Row="5" Grid.Column="0" HorizontalAlignment="Right" FontSize="7"></Label>
+                    <Label Content="Серийный номер машины" Grid.Row="6" Grid.Column="0" HorizontalAlignment="Right" FontSize="7"></Label>
+
+                    <StackPanel Grid.Row="1" Grid.Column="1">
+                        <Image Source="C:\Users\Arman\Documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars\Image\CarsListB.png" Height="10" Width="10" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5 5 5 5"/>
+                        <TextBox Height="20" Width="90" Margin="-50 -20 -30 5"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="2" Grid.Column="1">
+                        <Image Source="C:\Users\Arman\Documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars\Image\ProducerB.png" Height="10" Width="10" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5 5 5 5"/>
+                        <ComboBox Height="20" Width="90" Margin="-50 -20 -30 5"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="3" Grid.Column="1">
+                        <Image Source="C:\Users\Arman\Documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars\Image\ModelB.png" Height="10" Width="10" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5 5 5 5"/>
+                        <ComboBox Height="20" Width="90" Margin="-50 -20 -30 5"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="4" Grid.Column="1">
+                        <Image Source="C:\Users\Arman\Documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars\Image\PlaningB.png" Height="10" Width="10" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5 5 5 5"/>
+                        <DatePicker Height="20" Width="90" Margin="-50 -20 -30 5" FontSize="7" />
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="5" Grid.Column="1">
+                        <Image Source="C:\Users\Arman\Documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars\Image\ModelB.png" Height="10" Width="10" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5 5 5 5"/>
+                        <ComboBox Height="20" Width="90" Margin="-50 -20 -30 5"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="6" Grid.Column="1">
+                        <Image Source="C:\Users\Arman\Documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars\Image\NumberB.png" Height="10" Width="10" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5 5 5 5"/>
+                        <TextBox Height="20" Width="90" Margin="-50 -20 -30 5"/>
+                    </StackPanel>
+
+                    <Button Grid.Row="7" Grid.Column="0" Content="Close" HorizontalAlignment="Right" VerticalAlignment="Center" Height="20" Width="70" Background="LightGray">
+                    </Button>
+
+                    <Button Grid.Row="7" Grid.Column="1" Content="Добавить" HorizontalAlignment="Left" VerticalAlignment="Center" Height="20" Width="70" Background="SkyBlue">
+                    </Button>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Использование">
+                <Grid Background="Linen">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Content="Последняя запись"></Label>
+
+                    <Label Content="Дата последней записи" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" FontSize="7"></Label>
+                    <Label Content="Последние мото-часы" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" FontSize="7"></Label>
+                    <Label Content="Общая наработка" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right" FontSize="7"></Label>
+                    <Label Content="Активная" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right" FontSize="7"></Label>
+                    <Label Content="КТГ" Grid.Row="5" Grid.Column="0" HorizontalAlignment="Right" FontSize="7"></Label>
+                    <Label Content="Консервация" Grid.Row="6" Grid.Column="0" HorizontalAlignment="Right" FontSize="7"></Label>
+                    <Label Content="Моточасы" Grid.Row="7" Grid.Column="0" HorizontalAlignment="Right" FontSize="7"></Label>
+
+                    <StackPanel Grid.Row="1" Grid.Column="1">
+                        <Image Source="C:\Users\Arman\Documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars\Image\PlaningB.png" Height="10" Width="10" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="5 5 25 5"/>
+                        <DatePicker Height="20" Width="90" Margin="-50 -20 -30 5" FontSize="7" />
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="2" Grid.Column="1">
+                        <Image Source="C:\Users\Arman\Documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars\Image\NumberB.png" Height="10" Width="10" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5 5 5 5"/>
+                        <TextBox Height="20" Width="90" Margin="-50 -20 -30 5"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="3" Grid.Column="1">
+                        <Image Source="C:\Users\Arman\Documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars\Image\NumberB.png" Height="10" Width="10" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5 5 5 5"/>
+                        <TextBox Height="20" Width="90" Margin="-50 -20 -30 5"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="4" Grid.Column="1">
+                        <CheckBox Height="20" Width="90" Margin="-50 2 -30 5"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="5" Grid.Column="1">
+                        <CheckBox Height="20" Width="90" Margin="-50 2 -30 5"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="6" Grid.Column="1">
+                        <CheckBox Height="20" Width="90" Margin="-50 2 -30 5"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="7" Grid.Column="1">
+                        <CheckBox Height="20" Width="90" Margin="-50 2 -30 5"/>
+                    </StackPanel>
+
+                    <Button Grid.Row="8" Grid.Column="0" Content="Close" HorizontalAlignment="Right" VerticalAlignment="Center" Height="20" Width="70" Background="LightGray">
+                    </Button>
+
+                    <Button Grid.Row="8" Grid.Column="1" Content="Добавить" HorizontalAlignment="Left" VerticalAlignment="Center" Height="20" Width="70" Background="SkyBlue">
+                    </Button>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Амортизация">
+                <Grid Background="Linen">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Content="Настройка амортизации"></Label>
+
+                    <Label Content="Вид амортизации" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" FontSize="7"></Label>
+                    <StackPanel Grid.Row="1" Grid.Column="2">
+                        <CheckBox Height="20" Width="90" Margin="-50 3 -30 5"/>
+                    </StackPanel>
+
+                    <RichTextBox Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Background="LightCyan" Margin="84,20.8,51.4,9.6" Grid.RowSpan="2">
+                        <FlowDocument>
+                            <Paragraph FontWeight="Bold" FontSize="7" Foreground="Green">1-ый Линейный метод</Paragraph>
+                            <Paragraph FontWeight="Bold" FontSize="7" Foreground="Green" Margin="0 0 0 0">2-ой Метод уменьшаемого остатка</Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+
+                    <Label Content="Полная стоимость" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right" FontSize="7"></Label>
+                    <StackPanel Grid.Row="3" Grid.Column="1">
+                        <Image Source="C:\Users\Arman\Documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars\Image\ModelB.png" Height="10" Width="10" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5 5 5 5"/>
+                        <TextBox Height="20" Width="90" Margin="-50 -20 -30 5"/>
+                        <ComboBox Height="20" Width="90" Margin="60 -25 -100 5"></ComboBox>
+                    </StackPanel>
+
+                    <Label Content="Срок службы(лет)" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right" FontSize="7"></Label>
+                    <StackPanel Grid.Row="4" Grid.Column="1">
+                        <Image Source="C:\Users\Arman\Documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars\Image\ModelB.png" Height="10" Width="10" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5 5 5 5"/>
+                        <TextBox Height="20" Width="90" Margin="-50 -20 -30 5"/>
+                        <ComboBox Height="20" Width="90" Margin="60 -25 -100 5"></ComboBox>
+                    </StackPanel>
+
+                    <Label Content="Коэфицент ускорения" Grid.Row="5" Grid.Column="0" HorizontalAlignment="Right" FontSize="7"></Label>
+                    <StackPanel Grid.Row="5" Grid.Column="1">
+                        <Image Source="C:\Users\Arman\Documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars\Image\ModelB.png" Height="10" Width="10" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5 5 5 5"/>
+                        <TextBox Height="20" Width="90" Margin="-50 -20 -30 5"/>
+                        <ComboBox Height="20" Width="90" Margin="60 -25 -100 5"></ComboBox>
+                    </StackPanel>
+
+                    <Label Content="Дата ввода в эксплуатацию" Grid.Row="6" Grid.Column="0" HorizontalAlignment="Right" FontSize="7"></Label>
+                    <StackPanel Grid.Row="6" Grid.Column="1">
+                        <Image Source="C:\Users\Arman\Documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars\Image\PlaningB.png" Height="10" Width="10" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5 5 5 5"/>
+                        <DatePicker Height="20" Width="90" Margin="-50 -20 -30 5" FontSize="7" />
+                    </StackPanel>
+
+                    <Button Grid.Row="7" Grid.Column="0" Content="Close" HorizontalAlignment="Right" VerticalAlignment="Center" Height="20" Width="70" Background="LightGray">
+                    </Button>
+
+                    <Button Grid.Row="7" Grid.Column="1" Content="Добавить" HorizontalAlignment="Left" VerticalAlignment="Center" Height="20" Width="70" Background="SkyBlue">
+                    </Button>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFProjectCars", "WPFProjectCars\WPFProjectCars.csproj", "{529C4C7F-2865-43DB-AAE5-2972D9068252}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFProjectCars.LIB", "WPFProjectCars.LIB\WPFProjectCars.LIB.csproj", "{63B12EED-1B82-4DCF-8AD7-DA7BAAD0038C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{529C4C7F-2865-43DB-AAE5-2972D9068252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{529C4C7F-2865-43DB-AAE5-2972D9068252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{529C4C7F-2865-43DB-AAE5-2972D9068252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{529C4C7F-2865-43DB-AAE5-2972D9068252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63B12EED-1B82-4DCF-8AD7-DA7BAAD0038C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63B12EED-1B82-4DCF-8AD7-DA7BAAD0038C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63B12EED-1B82-4DCF-8AD7-DA7BAAD0038C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63B12EED-1B82-4DCF-8AD7-DA7BAAD0038C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
