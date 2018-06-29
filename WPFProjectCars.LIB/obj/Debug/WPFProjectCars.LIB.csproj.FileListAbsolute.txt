@@ -1,0 +1,15 @@
+c:\users\arman\documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars.LIB\bin\Debug\WPFProjectCars.LIB.dll
+c:\users\arman\documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars.LIB\bin\Debug\WPFProjectCars.LIB.pdb
+c:\users\arman\documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars.LIB\obj\Debug\WPFProjectCars.LIB.csprojResolveAssemblyReference.cache
+c:\users\arman\documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars.LIB\obj\Debug\WPFProjectCars.LIB.dll
+c:\users\arman\documents\visual studio 2015\Projects\WPFProjectCars\WPFProjectCars.LIB\obj\Debug\WPFProjectCars.LIB.pdb
+C:\Users\Arman\Desktop\Step\Coding\Project WPF\WPFProjectCars\WPFProjectCars.LIB\bin\Debug\WPFProjectCars.LIB.dll.config
+C:\Users\Arman\Desktop\Step\Coding\Project WPF\WPFProjectCars\WPFProjectCars.LIB\bin\Debug\WPFProjectCars.LIB.dll
+C:\Users\Arman\Desktop\Step\Coding\Project WPF\WPFProjectCars\WPFProjectCars.LIB\bin\Debug\WPFProjectCars.LIB.pdb
+C:\Users\Arman\Desktop\Step\Coding\Project WPF\WPFProjectCars\WPFProjectCars.LIB\bin\Debug\EntityFramework.dll
+C:\Users\Arman\Desktop\Step\Coding\Project WPF\WPFProjectCars\WPFProjectCars.LIB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Arman\Desktop\Step\Coding\Project WPF\WPFProjectCars\WPFProjectCars.LIB\bin\Debug\EntityFramework.xml
+C:\Users\Arman\Desktop\Step\Coding\Project WPF\WPFProjectCars\WPFProjectCars.LIB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Arman\Desktop\Step\Coding\Project WPF\WPFProjectCars\WPFProjectCars.LIB\obj\Debug\WPFProjectCars.LIB.csprojResolveAssemblyReference.cache
+C:\Users\Arman\Desktop\Step\Coding\Project WPF\WPFProjectCars\WPFProjectCars.LIB\obj\Debug\WPFProjectCars.LIB.dll
+C:\Users\Arman\Desktop\Step\Coding\Project WPF\WPFProjectCars\WPFProjectCars.LIB\obj\Debug\WPFProjectCars.LIB.pdb

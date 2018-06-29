@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WPFProjectCars.LIB.Models;
 
 namespace WPFProjectCars.Pages
 {
@@ -23,6 +24,8 @@ namespace WPFProjectCars.Pages
         public CarList()
         {
             InitializeComponent();
+            Model1 model = new Model1();
+            CarsList.ItemsSource = model.newEquipment.ToList();
         }
     }
 }
